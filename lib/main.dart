@@ -43,14 +43,17 @@ class _MyAppState extends State<MyApp> {
               questions[_questionIndex],
             ),
             ElevatedButton(
+              style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.blue)),
               child: Text('Answer 1'),
               onPressed: _answerQuestion,
             ),
             ElevatedButton(
+              style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.blue)),
               child: Text('Answer 2'),
               onPressed: () => print('Answer 2 chosen!'),
             ),
             ElevatedButton(
+               style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.blue)),
               child: Text('Answer 3'),
               onPressed: () {
                 // ...
